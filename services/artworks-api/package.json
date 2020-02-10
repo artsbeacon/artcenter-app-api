@@ -1,10 +1,10 @@
 {
   "name": "artcenter-app-artworks-api",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Arts Beacon art center application artworks api",
   "main": "handler.js",
   "scripts": {
-    "test": "serverless-bundle test"
+    "test": "../../node_modules/.bin/serverless-bundle test"
   },
   "author": "",
   "license": "MIT",
@@ -12,14 +12,7 @@
     "type": "git",
     "url": "https://github.com/AnomalyInnovations/serverless-nodejs-starter.git"
   },
-  "devDependencies": {
-    "aws-sdk": "^2.586.0",
-    "serverless-bundle": "^1.2.5",
-    "serverless-dotenv-plugin": "^2.1.1",
-    "serverless-offline": "^5.3.3"
-  },
   "dependencies": {
-    "stripe": "^7.14.0",
     "uuid": "^3.3.3"
   }
 }
